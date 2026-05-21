@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Colchones Viva | Productos Viva del Perú S.A.C.</title>
+
+  <!-- ESTILO COMPLETO AQUÍ -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4fdf4;
+      color: #222;
+    }
+
+    header {
+      background: #0a3d0a;
+      color: #fff;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-texto {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* BANNER VERDE ESTILO VIVA */
+    .marca-banner {
+      text-align: center;
+      padding: 70px 20px;
+      color: white;
+      background: linear-gradient(135deg, #00a651, #7ed957, #c7ff8f);
+    }
+
+    .marca-logo {
+      width: 220px;
+      margin-bottom: 15px;
+      filter: drop-shadow(0 0 8px rgba(0,0,0,0.4));
+    }
+
+    .descripcion, .modelos, .cta {
+      padding: 40px;
+      background: #ffffff;
+      margin-top: 10px;
+      border-radius: 10px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #0a7a0a;
+    }
+
+    .modelos-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .modelo-card {
+      flex: 1 1 220px;
+      background: #eaffea;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 5px solid #00a651;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .modelo-card h3 {
+      color: #0a7a0a;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #00a651;
+      padding: 10px 22px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #008c45;
+    }
+
+    footer {
+      background: #0a3d0a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .modelos-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo-texto">Distribuidora de Colchones del Sur S.R.L.</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section class="marca-banner">
+  <img src="Viva.png" class="marca-logo" alt="Viva">
+  <h1>Colchones Viva</h1>
+  <p>Confort diario, calidad accesible y descanso confiable.</p>
+</section>
+
+<section class="descripcion">
+  <h2>La línea ideal para toda la familia</h2>
+  <p>
+    Viva es nuestra marca pensada para el uso cotidiano. Combina materiales resistentes,
+    soporte adecuado y precios competitivos, manteniendo siempre el compromiso con la calidad.
+  </p>
+</section>
+
+<section class="modelos">
+  <h2>Modelos destacados</h2>
+  <div class="modelos-grid">
+    <div class="modelo-card">
+      <h3>Viva Clásico</h3>
+      <p>Colchón de firmeza media, ideal para dormitorios principales y juveniles.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Viva Ortopédico</h3>
+      <p>Mayor soporte para la espalda, recomendado para quienes buscan firmeza.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Viva Comfort</h3>
+      <p>Capa extra de acolchado para una sensación más suave y envolvente.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>¿Quieres distribuir Colchones Viva?</h2>
+  <p>Contáctanos para información sobre ventas al por mayor y alianzas comerciales.</p>
+  <a class="btn" href="contacto.html">Ir a Contacto</a>
+</section>
+
+<footer>
+  <p>© 2026 Distribuidora de Colchones del Sur S.R.L.</p>
+</footer>
+
+</body>
+</html>

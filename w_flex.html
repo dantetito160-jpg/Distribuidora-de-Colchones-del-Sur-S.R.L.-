@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W FLEX – Almohadas de Espuma Viscoelástica</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f3f6fb;
+            color: #222;
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(90deg, #0A4D9C, #1E88E5);
+            padding: 18px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        .logo-texto {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 28px;
+            font-size: 17px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #e8f1ff;
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(90deg, #0A4D9C, #1E88E5);
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: 54px;
+            font-weight: 900;
+        }
+
+        .hero p {
+            margin-top: 12px;
+            font-size: 22px;
+            opacity: 0.95;
+        }
+
+        /* SECTIONS */
+        .section {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #0A4D9C;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* BENEFICIOS */
+        .benefits {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .benefit-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            width: 30%;
+            min-width: 260px;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.18);
+        }
+
+        .benefit-card h3 {
+            color: #0A4D9C;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .benefit-card p {
+            font-size: 16px;
+            opacity: 0.85;
+        }
+
+        /* CTA */
+        .cta {
+            text-align: center;
+            margin: 70px 0;
+        }
+
+        .cta a {
+            background: #0A4D9C;
+            color: white;
+            padding: 15px 45px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .cta a:hover {
+            background: #083b78;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0A4D9C;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo-texto">Distribuidora de Colchones del Sur S.R.L.</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>W FLEX</h1>
+    <p>Tecnología y soporte avanzado para un descanso de otro nivel</p>
+</section>
+
+<!-- SOBRE LA MARCA -->
+<section class="section">
+    <h2>Sobre la marca</h2>
+    <p>
+        W FLEX es una marca peruana especializada en almohadas de espuma viscoelástica diseñadas 
+        para ofrecer comodidad, soporte anatómico y frescura durante toda la noche. 
+        Cada producto está creado para adaptarse a tu cuerpo y mejorar la calidad de tu descanso.
+    </p>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="section">
+    <h2>Beneficios principales</h2>
+
+    <div class="benefits">
+        <div class="benefit-card">
+            <h3>Espuma Viscoelástica</h3>
+            <p>Se adapta a tu cabeza y cuello para un soporte personalizado.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h3>Soporte Anatómico</h3>
+            <p>Mantiene la alineación natural de la columna para reducir tensión.</p>
+        </div>
+
+        <div class="benefit-card">
+            <h3>Frescura y Ventilación</h3>
+            <p>Materiales transpirables que evitan acumulación de calor.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <a href="contacto.html">Ir a Contacto</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    Distribuidora de Colchones del Sur S.R.L. – Calidad, innovación y confort para tu descanso.
+</footer>
+
+</body>
+</html>

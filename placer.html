@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Colchones Placer | Distribuidora de Colchones del Sur S.R.L.</title>
+
+  <style>
+    /* ======== ESTILO GENERAL ======== */
+    body {
+      background-color: #000000;
+      color: #F5F5F5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ======== HEADER ======== */
+    header {
+      background-color: #1A1A1A;
+      padding: 15px 40px;
+      border-bottom: 3px solid #F4C542;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo-texto {
+      color: #F4C542;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #F5F5F5;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #F4C542;
+    }
+
+    /* ======== BANNER PLACER ======== */
+    .placer-bg {
+      background: linear-gradient(180deg, #000000, #1A1A1A);
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 4px solid #F4C542;
+    }
+
+    .marca-logo {
+      width: 180px;
+      filter: drop-shadow(0 0 10px #F4C542);
+    }
+
+    .marca-banner h1 {
+      color: #F4C542;
+      font-size: 48px;
+      text-shadow: 0 0 10px #C89A2B;
+    }
+
+    .marca-banner p {
+      color: #F5F5F5;
+      font-size: 20px;
+    }
+
+    /* ======== SECCIÓN DESCRIPCIÓN ======== */
+    .descripcion {
+      padding: 40px 20px;
+    }
+
+    .descripcion h2 {
+      color: #F4C542;
+      border-left: 5px solid #C89A2B;
+      padding-left: 10px;
+    }
+
+    .descripcion p {
+      color: #E0E0E0;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    /* ======== MODELOS ======== */
+    .modelos {
+      padding: 40px 20px;
+    }
+
+    .modelos h2 {
+      color: #F4C542;
+      text-align: center;
+    }
+
+    .modelos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .modelo-card {
+      background-color: #1A1A1A;
+      border: 2px solid #C89A2B;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .modelo-card:hover {
+      border-color: #F4C542;
+      box-shadow: 0 0 15px #F4C542;
+    }
+
+    .modelo-card h3 {
+      color: #F4C542;
+    }
+
+    .modelo-card p {
+      color: #E0E0E0;
+    }
+
+    /* ======== CTA ======== */
+    .cta {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #000000;
+      border-top: 3px solid #F4C542;
+    }
+
+    .cta h2 {
+      color: #F4C542;
+    }
+
+    .cta p {
+      color: #E0E0E0;
+    }
+
+    .btn {
+      background-color: #F4C542;
+      color: #000000;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #C89A2B;
+    }
+
+    /* ======== FOOTER ======== */
+    footer {
+      background-color: #1A1A1A;
+      color: #F5F5F5;
+      text-align: center;
+      padding: 15px;
+      border-top: 3px solid #F4C542;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo-texto">Distribuidora de Colchones del Sur S.R.L.</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section class="marca-banner placer-bg">
+  <img src="Placer.jpeg" alt="Placer">
+  <h1>Colchones Placer</h1>
+  <p>Elegancia, diseño y una experiencia de descanso superior.</p>
+</section>
+
+<section class="descripcion">
+  <h2>Diseño y confort en cada detalle</h2>
+  <p>
+    Placer es la línea que combina estética y comodidad. Pensada para quienes valoran
+    un colchón que luzca tan bien como se siente, con acabados de alta calidad.
+  </p>
+</section>
+
+<section class="modelos">
+  <h2>Modelos destacados</h2>
+  <div class="modelos-grid">
+    <div class="modelo-card">
+      <h3>Placer Premium</h3>
+      <p>Acabados de lujo, acolchado profundo y soporte equilibrado.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Placer Hotelero</h3>
+      <p>Diseñado para hoteles y suites, alta durabilidad y confort constante.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Placer Deluxe</h3>
+      <p>Ideal para dormitorios principales, sensación envolvente y elegante.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Eleva el nivel de tu dormitorio</h2>
+  <p>Consulta por disponibilidad de modelos y tamaños en tu ciudad.</p>
+  <a class="btn" href="contacto.html">Ir a Contacto</a>
+</section>
+
+<footer>
+  <p>© 2026 Distribuidora de Colchones del Sur S.R.L.</p>
+</footer>
+
+</body>
+</html>

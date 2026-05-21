@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+ <!-- ESTILO COMPLETO AQUÍ MISMO -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-texto {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      position: relative;
+      background: url('https://images.unsplash.com/photo-1601972599720-36938d4ecd40?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+      height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-overlay {
+      background: rgba(0,0,0,0.55);
+      color: #fff;
+      padding: 40px 30px;
+      text-align: center;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: #00a651;
+      padding: 10px 22px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #008c45;
+    }
+
+    .marcas {
+      padding: 50px 40px;
+      text-align: center;
+    }
+
+    .grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      width: 260px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+
+    .viva-card { border-top: 4px solid #00a651; }
+    .placer-card { border-top: 4px solid #d4af37; }
+    .galactic-card { border-top: 4px solid #555; }
+
+    .showroom {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      background: #fff;
+      align-items: center;
+    }
+
+    .showroom-text, .showroom-img {
+      flex: 1 1 300px;
+      padding: 10px 20px;
+    }
+
+    .showroom-img img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .hero {
+        height: auto;
+        padding: 60px 20px;
+      }
+
+      .showroom {
+        padding: 20px;
+      }
+    }
+  </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestras Marcas | Distribuidora de Colchones del Sur S.R.L.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-texto">Distribuidora de Colchones del Sur S.R.L.</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section class="page-header">
+  <h1>Nuestras Marcas</h1>
+  <p>Una familia de marcas pensadas para diferentes estilos de vida y necesidades de descanso.</p>
+</section>
+
+<section class="marcas">
+  <div class="grid">
+    <a href="viva.html" class="card viva-card">
+      <img src="Viva.png" alt="Viva">
+      <h3>Viva</h3>
+      <p>Línea versátil y accesible, ideal para el uso diario.</p>
+    </a>
+
+    <a href="placer.html" class="card placer-card">
+      <img src="Placer.jpeg" alt="Placer">
+      <h3>Placer</h3>
+      <p>Diseño elegante, acabados premium y máximo confort.</p>
+    </a>
+    <a href="w_flex.html" class="card galactic-card">
+      <img src="W_Flex.png" width="5%" alt="W_Flex">
+      <h3>W-Flex</h3>
+      <p>Innovación que se adapta a ti mientras duermes.</p>
+    </a>
+
+    <a href="galactic.html" class="card galactic-card">
+      <img src="Galactic.png" alt="Galactic">
+      <h3>Galactic</h3>
+      <p>Soporte avanzado y tecnología para un descanso profundo.</p>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Distribuidora de Colchones del Sur S.R.L.</p>
+</footer>
+
+</body>
+</html>

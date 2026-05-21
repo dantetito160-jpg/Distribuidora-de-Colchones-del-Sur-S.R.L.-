@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Colchones Galactic | Productos Viva del Perú S.A.C.</title>
+
+  <style>
+    /* ======== ESTILO GENERAL ======== */
+    body {
+      background-color: #000814; /* negro espacial */
+      color: #E0E8FF; /* blanco azulado */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ======== HEADER ======== */
+    header {
+      background-color: #001122;
+      padding: 15px 40px;
+      border-bottom: 3px solid #00A8FF;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo-texto {
+      color: #00A8FF;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #E0E8FF;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00A8FF;
+    }
+
+    /* ======== BANNER GALACTIC ======== */
+    .galactic-bg {
+      background: radial-gradient(circle at center, #003366, #000814);
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom: 4px solid #00A8FF;
+    }
+
+    .marca-logo {
+      width: 180px;
+      filter: drop-shadow(0 0 12px #00A8FF);
+    }
+
+    .marca-banner h1 {
+      color: #00C8FF;
+      font-size: 48px;
+      text-shadow: 0 0 15px #0077CC;
+    }
+
+    .marca-banner p {
+      color: #D0E6FF;
+      font-size: 20px;
+    }
+
+    /* ======== SECCIÓN DESCRIPCIÓN ======== */
+    .descripcion {
+      padding: 40px 20px;
+    }
+
+    .descripcion h2 {
+      color: #00C8FF;
+      border-left: 5px solid #0077CC;
+      padding-left: 10px;
+    }
+
+    .descripcion p {
+      color: #D6E4FF;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    /* ======== MODELOS ======== */
+    .modelos {
+      padding: 40px 20px;
+    }
+
+    .modelos h2 {
+      color: #00C8FF;
+      text-align: center;
+    }
+
+    .modelos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .modelo-card {
+      background-color: #001122;
+      border: 2px solid #0077CC;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .modelo-card:hover {
+      border-color: #00C8FF;
+      box-shadow: 0 0 20px #00A8FF;
+    }
+
+    .modelo-card h3 {
+      color: #00C8FF;
+    }
+
+    .modelo-card p {
+      color: #D6E4FF;
+    }
+
+    /* ======== CTA ======== */
+    .cta {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #000814;
+      border-top: 3px solid #00A8FF;
+    }
+
+    .cta h2 {
+      color: #00C8FF;
+    }
+
+    .cta p {
+      color: #D6E4FF;
+    }
+
+    .btn {
+      background-color: #00A8FF;
+      color: #000814;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0077CC;
+    }
+
+    /* ======== FOOTER ======== */
+    footer {
+      background-color: #001122;
+      color: #E0E8FF;
+      text-align: center;
+      padding: 15px;
+      border-top: 3px solid #00A8FF;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo-texto">Distribuidora de Colchones del Sur S.R.L.</div>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="marcas.html">Marcas</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+
+<section class="marca-banner galactic-bg">
+  <img src="Galactic.png" class="marca-logo" alt="Galactic">
+  <h1>Colchones Galactic</h1>
+  <p>Soporte avanzado y tecnología para un descanso de otro nivel.</p>
+</section>
+
+<section class="descripcion">
+  <h2>Descanso con tecnología y precisión</h2>
+  <p>
+    Galactic es nuestra línea orientada a quienes buscan un colchón con soporte superior,
+    materiales de alta densidad y diseño moderno. Ideal para un descanso profundo y reparador.
+  </p>
+</section>
+
+<section class="modelos">
+  <h2>Modelos destacados</h2>
+  <div class="modelos-grid">
+    <div class="modelo-card">
+      <h3>Galactic Ortopédico</h3>
+      <p>Soporte firme para la columna, recomendado para quienes requieren mayor estabilidad.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Galactic Premium</h3>
+      <p>Equilibrio entre firmeza y confort, con capas de espuma de alta calidad.</p>
+    </div>
+    <div class="modelo-card">
+      <h3>Galactic Ultra Comfort</h3>
+      <p>Máximo confort, múltiples capas y sensación de descanso envolvente.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>¿Buscas un descanso de otro nivel?</h2>
+  <p>Pregunta por la línea Galactic en nuestros puntos de venta autorizados.</p>
+  <a class="btn" href="contacto.html">Ir a Contacto</a>
+</section>
+
+<footer>
+  <p>© 2026 Distribuidora de Colchones del Sur S.R.L.</p>
+</footer>
+
+</body>
+</html>
